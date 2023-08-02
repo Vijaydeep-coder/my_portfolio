@@ -311,7 +311,7 @@ top: -360px;
 .about-text h2
 {
     font-size: 60px;
-
+color: rgb(244, 208, 3);
 }
 .about-text h2 span
 {
@@ -475,6 +475,7 @@ top: -360px;
     display: grid;
     place-items: center;
     text-align: center;
+    color: rgb(244, 208, 3);
   }
   .skills_head h2{
     font-size: 30px;
@@ -718,11 +719,12 @@ top: -360px;
     font-size: 90px;
     line-height: 1;
     text-align: center;
+    color: rgb(244, 208, 3);
 }
 
 .contact-text h2 span
 {
-    color: rgb(160, 160, 168);
+    color: grey;
 }
 
 .contact-text h4
