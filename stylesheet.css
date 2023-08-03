@@ -80,6 +80,7 @@ body
     opacity: 0;
     animation: slideTop .5s ease forwards;
     animation-delay: calc(.2s*var(--i));
+    text-decoration: none;
 
 
 }
@@ -97,6 +98,7 @@ body
     /* navigation bar design */
     color: rgba(213, 177, 35, 0.933);
     border-radius: 15px;
+    text-decoration: none;
 }
 
 
@@ -107,12 +109,14 @@ body
     display: inline-block;
     border-radius: 20px;
     background-color: rgb(15, 15, 4, 0.824);
+    text-decoration: none;
 }
 .navbarr li:hover
 {
     box-shadow: 0 0 5px rgb(213, 177, 35, 0.933),
     0 0 25px rgb(213, 177, 35, 0.933), 0 0 50px rgb(213, 177, 35, 0.933),
     0 0 100px rgb(213, 177, 35, 0.933), 0 0  200px rgb(213, 177, 35, 0.933); 
+    text-decoration: none;
 
 }
 .home
@@ -125,6 +129,7 @@ body
     background-size: cover;
     background-position: center;
     display: flex;
+    color: rgb(213, 177, 35, 0.933);
     align-items: center;
     padding: 70px 10% 0;
 }
@@ -135,6 +140,8 @@ body
 .home-content h3
 {
     font-size: 32px;
+    color: rgb(213, 177, 35, 0.933);
+    
     font-weight: 700;
     opacity: 0;
     animation: slideBottom 1s ease forwards;
@@ -149,7 +156,7 @@ body
 }
 .home-content h3 span
 {
-    color: rgba(213, 177, 35, 0.933);
+    color: rgba(197, 205, 197, 0.824);
 }
 
 .home-content h1
@@ -162,7 +169,7 @@ body
     animation-delay: 1s;
 
 }
-.wrapper{
+/* .wrapper{
     display: inline-flex;
 
 }
@@ -176,7 +183,7 @@ font-weight: 400;
     height: 90px;
     line-height: 90px;
     /* background: rgba(197, 205, 197, 0.824); */
-overflow: hidden;
+/* overflow: hidden;
 }
 
 .dynamic-txts li{
@@ -190,18 +197,18 @@ overflow: hidden;
 
 
 }
-.dynamic-txts li span{
-    position: relative;
+.dynamic-txts li span{ */
+    /* position: relative;
 
 }
 .dynamic-txts li span::after{
     /* content: " "; */
-    position: absolute;
+    /* position: absolute;
     left: 0;
     height: 100%;
     width: 100%;
     /* background: rgba(213, 177, 35, 0.933); */
-    border-left: 2px solid rgba(213, 177, 35, 0.933) ;
+    /* border-left: 2px solid rgba(213, 177, 35, 0.933) ;
     animation: typing 1.5s steps(10) infinite;
 }
 @keyframes slide {
@@ -209,7 +216,7 @@ overflow: hidden;
 
 top: -360px;
     }
-}
+} */
 
 .home-content p
 {
@@ -245,6 +252,7 @@ top: -360px;
     background: rgba(219, 205, 35, 0.919);
     color: rgb(0, 0, 0);
     box-shadow: 0 0 43px rgb(213, 177, 35, 0.933);
+    text-decoration: none;
 
 }
 .btn-box
@@ -271,6 +279,7 @@ top: -360px;
     box-shadow: 0 0 5px rgb(213, 177, 35, 0.933),
     0 0 25px rgb(213, 177, 35, 0.933), 0 0 50px rgb(213, 177, 35, 0.933),
     0 0 100px rgb(213, 177, 35, 0.933), 0 0  200px rgb(213, 177, 35, 0.933); 
+    /* text-decoration: none; */
 }
 
 
@@ -311,7 +320,7 @@ top: -360px;
 .about-text h2
 {
     font-size: 60px;
-color: rgb(244, 208, 3);
+color: rgba(213, 177, 35, 0.933);
 }
 .about-text h2 span
 {
@@ -348,6 +357,7 @@ color: rgb(244, 208, 3);
 .sub-title
 {
     text-align: center;
+    color: rgba(213, 177, 35, 0.933);
     font-size: 60px;
     padding-bottom: 70px;
     
@@ -361,6 +371,7 @@ color: rgb(244, 208, 3);
 .container
 {
     padding: 90px;
+    
 
 }
 
@@ -496,6 +507,7 @@ color: rgb(244, 208, 3);
   .skills_main .skill_bar .info{
     display: flex;
     justify-content: space-between;
+    color: rgba(213, 177, 35, 0.933);;
     align-items: center;
     padding:  0 10px;
   }
@@ -618,6 +630,7 @@ color: rgb(244, 208, 3);
 .main-text h2
 {
     font-size: 80px;
+    color: rgba(213, 177, 35, 0.933);
     line-height: 5;
     text-align: center;
 
@@ -642,8 +655,8 @@ color: rgb(244, 208, 3);
 }
 .row img
 {
-    width: 98%;
-    border-radius: 10px;
+    width: 99%;
+    border-radius: 8px;
     display: block;
     transition: transform 0.5s;
 }
@@ -651,9 +664,9 @@ color: rgb(244, 208, 3);
 {
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(248, 247, 247, 0), rgb(244, 208, 3));
+    background: linear-gradient(rgba(248, 247, 247, 0), rgba(213, 177, 35, 0.933));
     position: absolute;
-    border-radius: 10px;
+    border-radius: 8px;
     opacity: 80%;
     left: 0;
     bottom: 0;
@@ -668,7 +681,7 @@ color: rgb(244, 208, 3);
 }
 .layer h5
 {
-    color: rgb(244, 208, 3);
+    color: rgba(213, 177, 35, 0.933);
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -719,32 +732,38 @@ color: rgb(244, 208, 3);
     font-size: 90px;
     line-height: 1;
     text-align: center;
-    color: rgb(244, 208, 3);
+    color: rgba(213, 177, 35, 0.933);
 }
 
 .contact-text h2 span
 {
-    color: grey;
+    color: rgb(160, 160, 168);
 }
 
 .contact-text h4
 {
     margin: 15px 0;
-    color: rgb(244, 208, 3);
-    font-size: 20px;
+    margin-top: 7%;
+    margin-bottom: 3%;
+    color: rgba(213, 177, 35, 0.933);
+    font-size: 30px;
     font-weight: 600;
 }
 .contact-text p
 {
-    color: rgb(244, 208, 3);
+    color: rgba(213, 177, 35, 0.933);
     font-size: 20px;
     line-height: 30px;
     margin-bottom: 2rem;
+    margin-top: 1%;
 
 }
 .contact-list 
 {
     margin-bottom: 3rem;
+    color: rgba(213, 177, 35, 0.933);
+
+    
 
 }
 .contact-list li
@@ -760,7 +779,7 @@ color: rgb(244, 208, 3);
 .contact-list i
 {
     display: inline-block;
-    color: rgb(244, 208, 3);
+    color: rgba(213, 177, 35, 0.933);
     font-size: 20px;
     font-weight: 600;
     transition: all .40s ease;
@@ -768,7 +787,7 @@ color: rgb(244, 208, 3);
 .contact-list li a:hover
 {
     transform: scale(1.01) translateY(-5px);
-    color: rgb(244, 208, 3);
+    color: rgba(213, 177, 35, 0.933);
 
 }
 .contact-icons i
@@ -781,7 +800,7 @@ color: rgb(244, 208, 3);
     background: transparent;
     border-radius: 50%;
     font-size: 20px;
-    color: rgb(244, 208, 3);
+    color: rgba(213, 177, 35, 0.933);
     text-decoration: none;
     margin: 30px 15px 30px;
     transition: .5s ease;
@@ -792,9 +811,9 @@ color: rgb(244, 208, 3);
 }
 .contact-icons i:hover
 {
-    background: rgb(244, 208, 3);
-    color: rgb(244, 208, 3);
-    box-shadow: 0 0 20px rgb(244, 208, 3);
+    background: rgba(213, 177, 35, 0.933);
+    color: rgba(213, 177, 35, 0.933);
+    box-shadow: 0 0 20px rgba(213, 177, 35, 0.933);
 
 }
 
@@ -808,7 +827,7 @@ color: rgb(244, 208, 3);
     outline: none;
     width: 90%;
     padding: 18px;
-    background:rgb(244, 208, 3);
+    background:rgb(160, 160, 168);
     color: black;
     font-size: 1rem;
     font-weight: 600;
@@ -840,14 +859,6 @@ color: rgb(244, 208, 3);
     box-shadow: 0 0 5px rgb(213, 177, 35, 0.933),
     0 0 25px rgb(213, 177, 35, 0.933);
 }
-/* .contact-form form .send:hover
-{
-    box-shadow:
-    0 0 5px rgb(213, 177, 35, 0.933),
-    0 0 25px rgb(213, 177, 35, 0.933), 0 0 50px rgb(213, 177, 35, 0.933),
-    0 0 100px rgb(213, 177, 35, 0.933), 0 0  200px rgb(213, 177, 35, 0.933); 
-
-} */
 
 #contact .contact-form #submit1
 {
@@ -876,145 +887,6 @@ color: rgb(244, 208, 3);
 
 
 }
-
-
-
-
-
-
-
-
-/* 
-section
-{
-    display: flex;
-    flex-wrap: wrap;
-}
-.container1
-{
-    width: 600px;
-    height: 500px;
-    padding: 75px 90px;
-    margin-left: 120px;
-    
-}
-.heading1
-{
-    
-    text-align: center;
-    text-decoration: underline;
-    text-underline-offset: 10px;
-    text-decoration-thickness: 5px;
-    margin-bottom: 50px;
-
-}
-
-.bar
-{
-    font-size: 23px;
-}
-.Technical-bars .bar
-{
-    margin-top: 40px 0;
-}
-
-.Technical-bars .bar:first-child
-{
-    margin-top: 0;
-
-}
-
-.Technical-bars .bar:last-child
-{
-    margin-bottom: 0;
-
-}
-
-.Technical-bars .bar .info
-{
-    margin-bottom: 5px;
-
-}
-
-.Technical-bars .bar .info span 
-{
-    font-size: 17px;
-    font-weight: 500;
-    animation: showText 0.5s 1s linear forwards;
-    opacity: 0;
-
-}
-
-.Technical-bars .bar .progress-line
-{
-    position: relative;
-    border-radius: 10px;
-    width: 100%;
-    height: 5px;
-    background-color: rgb(7, 222, 100);
-    animation: animate 1s cubic-bezier(1,0,0,5,1) forwards;
-    transform: scaleX(0);
-    transform-origin: left;
-}
-@keyframes animate
-{
-    100%{
-        transform: scaleX(1);
-    }
-}
-
-.Technical-bars .bar .progress-line span
-{
-    height: 100%;
-    background-color: rgb(28, 233, 72);
-    position: absolute;
-    border-radius: 10px;
-    animation: animate 1s 1s cubic-bezier(1,0,0,5,1) forwards;
-    transform: scaleX(0);
-    transform-origin: left;
-
-}
-
-.progress-line.html span
-{
-    width: 90%;
-
-}
-.progress-line.css span
-{
-    width: 75%;
-}.progress-line.javascript span
-{
-    width: 60%;
-}
-
-.progress-line span::after
-{
-    position: absolute;
-    padding: 1px 8px;
-    background-color: rgb(213, 177, 35, 0.933);
-    color: rgb(89, 241, 19);
-    font-size: 12px;
-    border-radius: 3px;
-    top: -28px;
-    right: -20px;
-    animation: showText 0.5s 1.5s linear forwards;
-    opacity: 0;
-    
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @keyframes slideRight
